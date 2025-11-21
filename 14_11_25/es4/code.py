@@ -6,13 +6,10 @@ for pos,line in enumerate(val):
     print(pos)
     print(line)
     
-    valutazioni[pos]=line.split(":")
-    #Traceback (most recent call last):
-        #File "/home/pi/gestione_file/14_11_25/es4/code.py", line 9, in <module>
-            #valutazioni[pos].append(line.split(":"))
-    #IndexError: list index out of range
-    
+    valutazioni.append(line.split(":"))
     
 val.close()
 
 print(valutazioni)
+print(valutazioni[0])
+print(valutazioni[0][0])
