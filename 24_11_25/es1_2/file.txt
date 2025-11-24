@@ -1,0 +1,4 @@
+Brescia;4;45.6;
+Brescia;6.1;50;
+Trento;2.5;70;
+Montemaggiore belsito;35;32.7;
