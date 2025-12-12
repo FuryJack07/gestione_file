@@ -18,5 +18,5 @@ while True:
             print("int non valido")
     dati[NoCo]=[Squa,Goal]
 print(dati)
-with open("test.json","w") as f:
+with open("goal.json","w") as f:
     json.dump(dati,f)
