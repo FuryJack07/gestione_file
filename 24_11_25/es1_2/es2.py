@@ -11,7 +11,7 @@ for val_sing in valori:
     if val_sing[0] not in lista:
         lista.append(val_sing[0])
 print(lista)
-
+print(valori)
 somma=0
 media=0
 valo=0
